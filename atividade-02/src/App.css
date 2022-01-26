@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(233, 192, 233);
+}
+
+.App {
+  display: flex;
+  gap: 20px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+
+  border-radius: 5%;
+  width: 300px;
+  height: 400px;
+}
+
+.perfil-img {
+  border-radius: 50%;
+}
+button {
+  all: unset;
+  width: 300px;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 5%;
+  padding: 10px 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.seguindo {
+  background-color: red;
+}

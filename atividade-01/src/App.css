@@ -1,0 +1,42 @@
+body {
+  background-color: aquamarine;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #fff;
+  text-align: center;
+}
+
+.close-btn {
+  align-self: flex-end;
+  padding: 10px;
+}
+
+button {
+  all: unset;
+  color: #fff;
+  background: #ed6755;
+  border-radius: 5%;
+  padding: 10px;
+
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.escondido {
+  display: none;
+}
